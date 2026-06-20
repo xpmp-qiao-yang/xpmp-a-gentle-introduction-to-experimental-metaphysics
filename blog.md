@@ -267,7 +267,7 @@ each arrow. A **site** is a category equipped with a notion of *covering* (which
 as "covering" an object). A **sheaf** is a presheaf whose data is *local-to-global coherent*: whenever a
 family $\{U_i\}$ covers $U$, sections that agree on overlaps glue uniquely to a section on $U$:
 
-$$ F(U) \;\cong\; \Big\{\, (s_i) \in \textstyle\prod_i F(U_i) \;\Big|\; s_i\big|_{U_i \cap U_j} = s_j\big|_{U_i \cap U_j} \,\Big\}. $$
+$$ F(U) \cong \lbrace (s_i) \in \prod_i F(U_i) \mid s_i = s_j \text{ on } U_i \cap U_j \rbrace. $$
 
 A **section** over $U$ is just an element of $F(U)$ — a coherent local datum. A **global section** is a
 section over the whole site at once: a single consistent assignment valid everywhere, a view from
