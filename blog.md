@@ -241,7 +241,7 @@ type signature.
 **Para (the self-modeling fraction, Idea I).** A lens with fixed wiring cannot *learn*. The **Para**
 construction supplies the missing handle: a parametrized arrow $A \to B$ is a pair
 
-$$ (P,\; f : P \otimes A \to B), $$
+$$ (P, f : P \otimes A \to B), $$
 
 a map equipped with a *parameter object* $P$ that it carries alongside its input, plus 2-cells that
 *reparametrize* — slide $P$ to a new value. This is the categorical home of learning: gradient descent,
@@ -265,7 +265,7 @@ Equanimity is near-identity; cessation is the identity itself — the typed rest
 functor $F : \mathcal{C}^{\mathrm{op}} \to \mathbf{Set}$ — data assigned to each object, pulled back along
 each arrow. A **site** is a category equipped with a notion of *covering* (which families of arrows count
 as "covering" an object). A **sheaf** is a presheaf whose data is *local-to-global coherent*: whenever a
-family $\{U_i\}$ covers $U$, sections that agree on overlaps glue uniquely to a section on $U$:
+family $\lbrace U_i \rbrace$ covers $U$, sections that agree on overlaps glue uniquely to a section on $U$:
 
 $$ F(U) \cong \lbrace (s_i) \in \prod_i F(U_i) \mid s_i = s_j \text{ on } U_i \cap U_j \rbrace. $$
 
@@ -289,7 +289,7 @@ Structurally the Kochen–Specker situation: you cannot see your own brain becau
 site, not a section.
 
 **Operad, algebra (the combination problem, Idea III).** An **operad** $\mathcal{W}$ records modes of
-composition: for each list of inputs it gives a set $\mathcal{W}(c_1,\dots,c_n;\,c)$ of ways to bind $n$
+composition: for each list of inputs it gives a set $\mathcal{W}(c_1, \dots, c_n; c)$ of ways to bind $n$
 parts into one whole, closed under substitution. An **algebra** over it is a functor that *realizes*
 each abstract binding as an actual structure. Cast the parts as sub-witnesses and the question that has
 sunk every neutral monism — *how do micro-experiences combine into one experience?* — becomes a single
@@ -368,3 +368,4 @@ All figures and results are reproducible from the project repository, in the iso
 
 *Numbers are arbitrary but meaningful — every parameter is a metaphysical commitment written down as
 a float.*
+
